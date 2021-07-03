@@ -1,3 +1,2 @@
 # 20210628_FE_SE
 ERMIA INIT IT
-ERMIA IS S.Th bad is happing
