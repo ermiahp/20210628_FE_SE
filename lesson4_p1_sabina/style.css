@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    height: 90vh;
+    margin: 0;
+    padding-top: 10vh;
+}
+
+.page-header {
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+#login-box {
+
+    background-color: #ebedef;
+    width: max-content;
+    margin: auto;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.sbutton {
+    background-color: #2c974b ;
+
+}
