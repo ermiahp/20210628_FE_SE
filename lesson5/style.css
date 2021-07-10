@@ -1,0 +1,44 @@
+.logo {
+    height: 65px;
+    width: 200px;
+    margin: auto;
+    background-image: url("https://www.svenskakyrkan.se/bilder/spotify(3).png?DoProcessing=&w=1680");
+    background-size: cover;
+    background-position: center;
+}
+.divider {
+    width: 100vw;
+    height: 2px;
+    background-color: grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.header-page{
+    margin:auto;
+    width: max-content;
+    font-size: 24px;
+    font-weight: bold;
+    color: ;
+}
+.button-page {
+    width: 40vw;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.facebook {
+    background-color: #3b5998;
+    color: white;
+    
+}
+.apple {
+    background-color: black;
+    color: white;
+}
+.google{
+    background-color: white;
+    color: grey;
+    
+}
