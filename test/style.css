@@ -1,6 +1,6 @@
 body { 
     background-color: lightblue;
-    border: 10px solid white;
+    border: 20px solid white;
     margin: 0;
 
 }
@@ -21,8 +21,8 @@ h1 {
     width: 50%;
     border-radius: 10px;
     margin: auto;
-
-
+    padding: 20px;
+    margin-top: 10%;
 }
 
 .firstline {
@@ -37,8 +37,13 @@ h1 {
     background-color: rgb(65, 91, 207);
     color: white;
     border-radius: 8px;
+    padding: 10px;
 }
 
 input {
     border-radius: 8px;
+}
+
+.picture{
+ margin-top: -50px;
 }
