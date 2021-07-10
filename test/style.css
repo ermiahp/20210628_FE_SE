@@ -1,0 +1,43 @@
+body { 
+    background-color: lightblue;
+    border: 10px solid white;
+
+}
+
+h1 {
+    color: rgb(65, 91, 207);
+}
+
+.box1 {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.greybox {
+    background-color: rgb(77, 75, 75);
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+
+.firstline {
+    color: white;
+}
+
+.secondline {
+    color: grey;
+    font-style: italic;
+}
+.button {
+    background-color: rgb(65, 91, 207);
+    color: white;
+    border-radius: 8px;
+}
+
+input {
+    border-radius: 8px;
+}
