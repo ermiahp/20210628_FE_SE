@@ -1,0 +1,52 @@
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  padding-top: 50px;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #8fb9e3;
+  padding-top: 125px;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  background-color: #487fc2;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#email {
+  width: 240px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.focus {
+  background-color: #3d4145;
+  width: 600px;
+  height: 250px;
+  border-radius: 20px;
+  margin: auto;
+}
+div {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+}
+div > h1 {
+  color: #385f8c;
+}
+div > p {
+  color: white;
+  font-size: 20px;
+}
+div p:nth-child(5) {
+  color: #76787a;
+  margin-top: 50px;
+}
