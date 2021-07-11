@@ -1,0 +1,42 @@
+.headerofpage {
+    text-align: center;
+    color: purple;
+}
+.welcome-page {
+    width: 50vh;
+    margin: auto;
+}
+#welcometitle {
+    font-size: 23px;
+}
+.buttons {
+    width: 50vh;
+    height: 6vh;
+    margin: 3vh;
+}
+.btn-page {
+    text-align: center;
+}
+.facebook {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+.email {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+.facebook:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.finishing-text {
+    font-size: 12px;
+    margin: auto;
+    width: 50vh;
+}
+a {
+    color: red;
+}
