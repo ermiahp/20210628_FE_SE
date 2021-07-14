@@ -1,10 +1,7 @@
-
-
-
 /* li {
     display: inline;
   } */
-
+/* 
   ul {
     list-style-type: none;
     margin: 0;
@@ -26,4 +23,135 @@
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #111;} */
+.logo-header {
+  position: absolute;
+  width: 183.89px;
+  height: 29.92px;
+  left: 142.79px;
+  top: 20.59px;
+  height: 29.923307418823242px;
+  width: 183.8880615234375px;
+  left: 142.79348754882812px;
+  top: 20.58984375px;
+  border-radius: [object Object]px;
+}
+.happy-people {
+    position: absolute;
+width: 605px;
+height: 496px;
+left: 666px;
+top: 128px;
+}
+
+header {
+  position: absolute;
+  width: 1389px;
+  height: 73px;
+  left: 0px;
+  top: 20px;
+
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.navigations {
+  position: absolute;
+  height: 28px;
+  left: 46.43%;
+  right: 28.57%;
+  top: calc(50% - 28px / 2 - 0.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  color: #2f281e;
+}
+
+.login {
+  position: absolute;
+  left: 73.5%;
+  right: 19.21%;
+  top: 19.23%;
+  bottom: 21.79%;
+  color: #173a56;
+  background-color: #bcd0e5;
+}
+
+.register {
+  color: #ff9900;
+  background-color: #ffffff;
+
+  position: absolute;
+  left: 81.79%;
+  right: 10.36%;
+  top: 19.23%;
+  bottom: 21.79%;
+}
+
+#header-left-text {
+  position: absolute;
+  width: 518px;
+  height: 331px;
+  margin-left: 145px;
+  margin-top: 211px;
+  text-align: justify;
+}
+
+.header-buttons {
+    position: absolute;
+width: 366px;
+height: 53px;
+margin-left: 145px;
+margin-top: 489px;
+
+}
+#header-left-btn1 {
+  background-color: #ff9900;
+  color: #ffffff;
+  position: absolute;
+  width: 175px;
+  height: 53px;
+  margin-left: 145px;
+ margin-top: 489px;
+}
+
+#header-left-button2 {
+  color: #ff9900;
+  position: absolute;
+  height: 24px;
+  margin-left: 16.15%;
+  margin-right: 0%;
+  margin-top: calc(50% - 24px / 2 + 0.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+}
+
+.title-p2 {
+    /* position: absolute;
+height: 108px;
+left: 38.22%;
+right: 37.4%;
+top: calc(50% - 108px/2 - 217.5px); */
+color: pink;
+
+/* font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+text-align: center; */
+
+color: #2F281E;
+}
