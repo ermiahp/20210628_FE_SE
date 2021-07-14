@@ -1,0 +1,168 @@
+.logo {
+    width: 30%;
+    float: left;
+    margin-left: 143px;
+    padding-top: 5px;
+}
+.header {
+    margin-top: 22px;
+}
+}
+.nav {
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 650px;
+    
+}
+.nav>a {
+    color: rgba(47, 40, 30, 1);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.sign-in {
+    color: rgb(23, 58,86);
+    border: 1px solid rgb(188, 208, 229);
+    background-color: white;
+    width: 102px;
+    height: 46px;
+    border-radius: 5px;
+    margin-left: 29px;
+    margin-right: 14px;
+}
+.sign-up {
+    color: white;
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+}
+.left-side {
+    width: 458px;
+    height: 233px;
+    margin-left: 145px;
+    margin-top: 133px;
+    margin-right: 0px;
+    font: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(84, 72, 55, 1);
+}
+.left-side>h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    color: rgba(47, 40, 30, 1);
+}
+p {
+    margin: 0;
+
+}
+.get-started {
+    margin-left: 145px;
+    margin-top: 51px;
+    width: 366px;
+}
+.get-started>button {
+    width: 175px;
+    height: 53px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 30px;
+
+
+}
+#watchthevideo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 153, 0, 1);
+}
+.header-picture {
+    float: right;
+    margin-right: 129px;
+    margin-top: -419px;
+}
+.second-part {
+    width: 100%;
+    margin-top: 186px;
+}
+.title {
+    width: 539px;
+    margin: auto;
+    height: 108px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.card {
+    margin-top: 54px;
+    width: 100%;
+    max-width: 2211px;
+    height: 734px;   
+ }
+ .card1 {
+    margin-left: 141px;  
+    position: absolute;
+    width: 194px;
+    height: 178px;
+    
+}
+.card2 {
+    position: absolute;
+    width: 194px;
+    height: 178px;
+    margin-left: 390px;
+    
+    
+}
+.card3 {
+    position: absolute;
+    margin-left: 675px;
+    width: 194px;
+    height: 178px;
+
+}
+.card4 {
+    position: absolute;
+    width: 194px;
+    height: 178px;
+    margin-left: 959px;
+}
+.card-heading {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+.card-text {
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+}
+.btn {
+
+    margin-top: 278px;
+    margin-left: 45%;
+    width: 175px;
+    height: 53px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
