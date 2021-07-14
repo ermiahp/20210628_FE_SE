@@ -1,0 +1,29 @@
+@import url(./Fonts/Roboto/Roboto-Regular.ttf);
+
+@font-face {
+  font-family: sherin;
+  src: url(./Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: sherin;
+  src: url(./Fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family:sherin;
+  src: url(./Fonts/Roboto/Roboto-Italic.ttf);
+}
+
+h1 {
+  font-family: sherin;
+  font-weight: bold;
+}
+.second-p { font-family: Roboto;
+    font-weight:bolder;
+
+}
+p {
+  font-family: Roboto;
+  font-weight:lighter;
+  font-style: italic;
+}
