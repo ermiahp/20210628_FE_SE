@@ -1,0 +1,8 @@
+body > h1 {
+    font-size: 40px;
+    
+}
+
+body > h1  { first-child 
+    color: blue;
+}
