@@ -1,0 +1,13 @@
+@import url(./font/robot/robot.css);
+
+@font-face {
+    font-family: 'tobias';
+    src: url(/lesson8/font/Festive-Regular.ttf);
+}
+.font-style {
+    font-family: tobias;
+}
+p {
+     font-family: robot;
+     
+}
