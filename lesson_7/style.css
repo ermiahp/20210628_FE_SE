@@ -1,0 +1,31 @@
+.logo {
+    float: left;
+}
+#resources {
+position: absolute;
+height: 28px;
+left: 46.43%;
+right: 28.57%;
+top: auto;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+color: #2F281E;
+}
+
+#button1 {
+position: inherit;
+left: 73.5%;
+right: 80%;
+top: 19.23%;
+bottom: 21.79%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+}
