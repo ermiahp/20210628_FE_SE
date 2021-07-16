@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .logo {
     width: 30%;
     float: left;
@@ -43,7 +45,7 @@
     margin-left: 145px;
     margin-top: 133px;
     margin-right: 0px;
-    font: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -58,6 +60,11 @@
 }
 p {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 
 }
 .get-started {
@@ -77,7 +84,7 @@ p {
 
 }
 #watchthevideo {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -86,23 +93,25 @@ p {
 }
 .header-picture {
     float: right;
-    margin-right: 129px;
+    margin-right: 47px;
     margin-top: -419px;
 }
 .second-part {
     width: 100%;
+    height: 543px;
     margin-top: 186px;
+    
+}
+.head-title {
+    text-align: center;
 }
 .title {
-    width: 539px;
-    margin: auto;
-    height: 108px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    text-align: center;
+    
 }
 .card {
     margin-top: 54px;
@@ -113,14 +122,14 @@ p {
  .card1 {
     margin-left: 141px;  
     position: absolute;
-    width: 194px;
-    height: 178px;
+    width: 240px;
+    height: 204px;
     
 }
 .card2 {
     position: absolute;
-    width: 194px;
-    height: 178px;
+    width: 240px;
+    height: 204px;
     margin-left: 390px;
     
     
@@ -128,32 +137,25 @@ p {
 .card3 {
     position: absolute;
     margin-left: 675px;
-    width: 194px;
-    height: 178px;
+    width: 240px;
+    height: 204px;
 
 }
 .card4 {
     position: absolute;
-    width: 194px;
-    height: 178px;
+    width: 240px;
+    height: 204px;
     margin-left: 959px;
 }
 .card-heading {
 
     font-family: Poppins;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 22px;
     line-height: 33px;
     margin-top: 30px;
     margin-bottom: 13px;
-}
-.card-text {
-   font-family: Poppins;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 26px;
 }
 .btn {
 
@@ -165,4 +167,111 @@ p {
     color: white;
     border: none;
     border-radius: 5px;
+}
+.effortless-validation {
+    width: 1110px;
+    height: 574px;
+    margin: auto;
+    margin-left: 145px;
+    margin-top: 120px;
+}
+.text-product {
+    width: 486px;
+    margin-right: 90px;
+    margin-left: auto;
+    margin-top: 140px;
+}
+.sub-title {
+   font-family: poppins;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   color: rgba(47, 40, 30, 1);
+   margin-top: 25px;
+   margin-bottom: 12px;
+}
+.effortless-title {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+.effortless-picutre {
+    float: right;
+    margin-top: -527px;
+    margin-right: 90px;
+}
+.checkbox {
+    width: 35px;
+    height: 35px;
+    color: rgb(255, 153, 0);
+    float: left;  
+}
+.product-img {
+    margin-top: -400px;
+    float: left;
+    margin-left: 60px;
+}
+.marketers {
+    width: 1100px;
+    height: 609px;
+    margin-top: 240px;
+    margin-left: 147px;
+}
+.marketers-img {
+    float: right;
+    margin-right: 50px;
+    margin-top: -540px;
+}
+.links {
+    width: 1109px;
+    height: 308px;
+    margin-top: 146px;
+}
+.logo-img {
+    margin-left: 143px;
+    position: absolute;
+}
+ul {
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: rgba(84, 72, 55, 1);
+}
+.link-box-one {
+margin-left: 370px;
+position: absolute;
+width: 118px;
+height: 205px;
+margin-top: 40px;
+}
+.link-box-two {
+margin-left: 545px;
+position: absolute;
+margin-top: 40px;
+}
+.signup {
+    position: absolute;
+    margin-left: 794px;
+    margin-top: 60px;
+}
+.place-holder {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid rgba(188, 208, 229, 1);
+}
+.last-btn {
+    width: 131px;
+    height: 39px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 21px;
 }
