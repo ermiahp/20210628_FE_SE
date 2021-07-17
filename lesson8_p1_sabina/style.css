@@ -1,0 +1,16 @@
+@import url(./Robot/robot.css) ;
+
+@font-face {
+    font-family: ermia;
+    src: url(./Fonts/OtomanopeeOne-Regular.ttf);
+}
+
+.font-style {
+    font-family: ermia, serif;
+}
+
+p {
+    font-family: Robot;
+    font-weight: 100;
+}
+
