@@ -1,0 +1,16 @@
+@import url(./fonts/Robot/robot.css);
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+@font-face {
+    font-family: ermia;
+    src: url(./fonts/OtomanopeeOne-Regular.ttf);
+}
+
+.font-style{
+    font-family: 'Qahiri', sans-serif;
+}
+
+p{
+    font-family: Robot;
+    font-weight: 100;
+}
