@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Robot;
+    src: url(./Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Robot;
+    src: url(./Roboto-Bold.ttf);
+    font-weight: bold;
+ }
+
+ @font-face {
+    font-family: Robot;
+    src: url(./Roboto-Italic.ttf);
+    font-weight: italic;
+ }
