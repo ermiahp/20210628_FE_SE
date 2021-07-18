@@ -1,33 +1,258 @@
-.logo-header {
-  height: 30x;
-  width: 184px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+body {
+  margin: 0;
+  width: 80vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: 'poppins', sans-serif;
+  padding-bottom: 20vw;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  border: 1px solid #000000;
+}
+
+.logo-header {
+  width: 20vw;
+}
+
+.nav-buttons {
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.navigations a {
+  color: #2f281e;
+}
+
+.nav-buttons {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-buttons button {
+  width: 45%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-buttons button:first-child {
+  color: #173a56;
+  background-color: white;
+  border: 1px #bcd0e5 solid;
+}
+.nav-buttons button:last-child {
+  background-color: #ff9900;
+  color: white;
+}
+
+.header-description {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-description {
+  width: 50%;
+}
+
+.main-description h2 {
+font-weight: bold;
+font-size: 44px;
+line-height: 54px;
+}
+
+.happy-people {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-actions button:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ff9900;
+  color: white;
+  border: none;
+}
+
+.play-icon {
+ color:#ff9900;
+  font-size: 30px;
+}
+
+.header-actions button:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  text-decoration: underline orange;
+  color: #ff9900;
+  border: 1px white solid  ;
+}
+
+.feature-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 0px;
+  padding-top: 50px;
+
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+  justify-content: space-around;
+  text-align:left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:20px;
+ 
+}
+ 
+  .sign-up button {
+    background-color: #ff9900;
+    border-color: orange;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .effortless-validation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  .effortless-description{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+.image-designer {
+  width:50%;
+}
+
+.effortless-top {
+  display: flex;
+flex-direction: column;
+}
+
+.effortless-bottom {
+  display: flex;
+flex-direction: column;
+}
+
+.effortless-description p {
+  font-family: 'poppins' sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #544837;
+}
+
+.effortless-description h2 {
+  font-family: 'poppins' sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.effortless-description h5 {
+  font-family: 'poppins' sans-serif;
+  font-size: 16px;
+  margin-block-end: 0;
+
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  width: 100%;
+}
+
+.logo-header {
+  width: 20vw;
+  margin-left: 62px;
 }
 .happy-people {
   width: 605px;
   height: 496px;
-
+  display: flex;
 }
 
 header {
-
   border: 1px solid #000000;
   box-sizing: border-box;
 }
-
-.navigations {
-  display: inline;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
+nav {
+  width: 100%;
+}
+.navbar {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   font-size: 14px;
-
-
   color: #2f281e;
 }
-.navigations nav {
- float: right; 
+
+.navigations {
+  width: 45vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-buttons {
+  width: 40%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
 }
 
 .login {
@@ -40,14 +265,20 @@ header {
   background-color: #ffffff;
 }
 
-#header-left-text {
-  text-align: justify;
+.header-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: flex-end;
+
 }
 
-.header-buttons {
-  display: inline;
-  margin-left: 15px;
+.header-actions {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
+
 #header-left-btn1 {
   background-color: #ff9900;
   color: #ffffff;
@@ -57,7 +288,7 @@ header {
   color: #ff9900;
   height: 24px;
 
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -76,7 +307,6 @@ header {
   color: #2f281e;
 }
 
-
 h4 {
   color: #2f281e;
 }
@@ -85,8 +315,8 @@ h4 {
 }
 
 .feature-item {
-display: inline-block;
-width: 24%;
+  display: inline-block;
+  width: 24%;
 }
 
 .icons {
@@ -114,8 +344,8 @@ width: 24%;
 .logo-footer {
   width: 185px;
   height: 32px;
-
 }
 
 footer {
-
+  display: flex;
+} */
