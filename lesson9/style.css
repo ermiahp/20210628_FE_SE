@@ -5,6 +5,7 @@ body {
     padding-left: 10vw;
     padding-right: 10vw;
     font-family: 'poppins';
+    margin: 0;
 }
 .navigation-bar {
     height: 78px;
@@ -16,43 +17,43 @@ body {
 .logo {
     width: 20vw;
 }
-.navigation-action {
+.navigation-bar__action {
     width: 45vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.nav-links {
+.navigation-bar__links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 60%;
 }
-.nav-links a {
+.navigation-bar__links a {
     font-family: Poppins;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
     color: #2F281E;
 }
-.nav-btn {
+.navigation-bar__btn {
     width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.nav-btn button {
+.navigation-bar__btn button {
     width: 45%;
     height: 45px;
     border-radius: 5px;
     border: none;
 }
-.nav-btn button:first-child {
+.navigation-bar__btn button:first-child {
     border: 1px solid #BCD0E5;
     background-color: white;
 }
-.nav-btn button:last-child {
+.navigation-bar__btn button:last-child {
     color: white;
     background-color: #FF9900;
 }
@@ -61,7 +62,7 @@ body {
     display: flex;
     height: 496px;
 }
-.left-part {
+.header__left_part {
     width: 45%;
     height: 337px;
     display: flex;
@@ -69,24 +70,24 @@ body {
     justify-content: space-between;
     margin: auto;
 }
-.header-heading {
+.header__left_part-title {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.header-heading h1 {
+.header h1 {
     font-family: 'poppins';
     font-weight: 700;
     font-style: normal;
     font-size: 44px;
     line-height: 54px;
 }
-.header-text {
+.header__left_part-text {
     width: 96%;
     display: flex;
     justify-content: space-between;
 }
-.header-text p {
+.header__left_part-text p {
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
@@ -94,18 +95,17 @@ body {
     font-size: 18px;
 
 }
-.btn-icon-link {
+.header__button {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 56px;
     
 }
-.header-btn {
-    display: flex;
+.header__button-btn {
     width: 45%;
 }
-.header-btn button {
+.header__button-btn button {
     width: 13vw;
     height: 53px;
     background-color: #FF9900;
@@ -113,22 +113,22 @@ body {
     border: none;
     color: white;
 }
-.icon {
+.header__left_part-icon {
     width: 45%;
     display: flex;
 }
-.icon span {
+.header__left_part-icon span {
     width: 20px;
     height: 17px;
     color: rgba(255, 153, 0, 1);
 }
-.icon a {
+.header__left_part-icon a {
     color: rgba(255, 153, 0, 1);
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
-.right-part {
+.header__right_part {
     width: 55%;
     display: flex;
 }
@@ -145,13 +145,13 @@ body {
     width: 539px;
     margin: 0px;
 }
-.feature-cards {
+.feature__cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 54px;
 }
-.card {
+.feature__card {
     width: 22%;
     height: 178px;
     display: flex;
@@ -160,10 +160,10 @@ body {
     text-align: start;
     justify-content: space-between
 }
-.card4 {
+.feature__card-card4 {
     height: 204px;
 }
-.card h4 {
+.feature__card h4 {
     margin: 0px;
     font-family: Poppins;
     font-size: 22px;
@@ -171,7 +171,7 @@ body {
     font-style: normal;
     line-height: 33px;
 }
-.card p {
+.feature__card p {
     margin: 0px;
     font-family: Poppins;
     font-weight: 400;
@@ -180,7 +180,7 @@ body {
     line-height: 26px;
     color: rgba(84, 72, 55, 1);
 }
-.feature-icon {
+.feature__icon {
     width: 51px;
     height: 50px;
     background-color: purple;
@@ -190,7 +190,7 @@ body {
     justify-content: center;
     border-radius: 20px;
 }
-.feature-btn {
+.feature__btn {
     width: 175px;
     height: 53px;
     background-color: #FF9900;
@@ -207,14 +207,14 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.effortless-text {
+.effortless-validation__text {
     width: 40%;
     height: 531px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.effortless-text h1 {
+.effortless-validation__text h1 {
     margin: 0;
     font-style: normal;
     font-weight: bold;
@@ -222,7 +222,7 @@ body {
     line-height: 54px;
     color: rgba(47, 40, 30, 1);
 }
-.effortless-text p {
+.effortless-validation__text p {
     margin: 0;
     color: rgba(84, 72, 55, 1);
     font-style: normal;
@@ -230,7 +230,7 @@ body {
     font-size: 16px;
     line-height: 26px;
 }
-.effortless-text h5 {
+.effortless-validation__text h5 {
     margin: 0;
     color: rgba(47, 40, 30, 1);
     font-style: normal;
@@ -238,7 +238,7 @@ body {
     font-size: 16px;
     line-height: 26px;
 }
-.effortless-img {
+.effortless-validation__img {
     width: 50%;
     height: 574px;
     display: flex;
@@ -251,11 +251,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.product-img {
+.product-managers__img {
     width: 50%;
     height: 521px;
 }
-.product-text {
+.product-managers__text {
     width: 42%;
     height: 427px;
     display: flex;
@@ -264,28 +264,28 @@ body {
     
 
 }
-.product-text h1 {
+.product-managers__text h1 {
     margin: 0;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
 }
-.product-text p {
+.product-managers__text p {
     margin: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
 }
-.product-text label {
+.product-managers__text label {
     width: 83%;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
 }
-.product-icon {
+.product-managers__icon {
     width: 35px;
     height: 35px;
     background-color: orange;
@@ -295,7 +295,7 @@ body {
     justify-content: center;
     border-radius: 13px;
 }
-.box {
+.product-managers__box {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -307,7 +307,7 @@ body {
     justify-content: space-between;
     margin-top: 104px;
 }
-.marketers-text {
+.marketers__text {
     width: 44%;
     height: 569px;
     display: flex;
@@ -315,7 +315,7 @@ body {
     justify-content: space-between;
     
 }
-.marketers-text h1 {
+.marketers__text h1 {
     margin: 0;
     font-style: normal;
     font-weight: bold;
@@ -323,7 +323,7 @@ body {
     line-height: 54px;
     color: rgba(47, 40, 30, 1);
 }
-.marketers-text p {
+.marketers__text p {
     margin: 0;
     font-style: normal;
     font-weight: 500;
@@ -331,7 +331,7 @@ body {
     line-height: 26px;
     color: rgba(84, 72, 55, 1);
 }
-.marketers-text h5 {
+.marketers__text h5 {
     margin: 0px;
     color: rgba(47, 40, 30, 1);
     font-style: normal;
@@ -339,7 +339,7 @@ body {
     font-size: 16px;
     line-height: 26px;
 }
-.marketers-img {
+.marketers__img {
     width: 50%;
     height: 609px;
 }
@@ -351,17 +351,17 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
-.footer-img {
+.footer__img {
     width: 185px;
     height: 32px;
     align-self: center;
 }
 
-.footer-links {
+.footer__links {
     display: flex;
     flex-direction: column;
 }
-.footer-links a {
+.footer__links a {
     text-decoration: none;
     color: rgba(84, 72, 55, 1);
     font-style: normal;
@@ -369,13 +369,13 @@ body {
     font-size: 16px;
     line-height: 35px;
 }
-.footer-links input {
+.footer__links input {
     width: 325px;
     height: 48px;
     border: 1px solid #BCD0E5;
     background-color: white;
 }
-.footer-links button {
+.footer__links button {
     background-color: #FF9900;
     color: white;
     width: 131px;
