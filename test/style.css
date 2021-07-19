@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 30px 10vh;
+align-items: center;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.navlinks {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.navbar-options a {
+    font-size: 12px;
+    color: #2F281E;
+
+}
+
+.buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 45%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons button:first-child {
+    border: 1px solid #BCD0E5;
+    background-color: white;
+}
+
+.buttons button:last-child {
+    color: white;
+    background-color: #FF9900;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-description {
+    width: 50%;
+
+
+}
+.main-description h2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+}
+
+.main-section-get-start {
+
+    display: flex;
+    align-items: center;
+}
+.main-section-get-start button {
+    border: none;
+    height: 53px;
+    color: white;
+    background-color: #FF9900;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    min-width: 170px;
+
+}
+
+.main-section-get-start a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-section-image {
+    margin-top: 50px;
+    width: 50%;
+
+}
+
+.play-icon {
+    color: #FF9900;
+    font-size: 30px;
+}
+
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature-section-features-descriptions {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-section-Afeature {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly ;
+    text-align: left; 
+}
+
+.feature-section-Afeature h4, .feature-section-Afeature p {
+    margin: 0;
+}
