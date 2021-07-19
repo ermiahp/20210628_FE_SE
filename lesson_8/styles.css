@@ -1,0 +1,17 @@
+@import url(./fonts/Robot/robots.css);
+
+@font-face {
+    font-family: alex;
+    src: url(./fonts/Festive-Regular.ttf);
+}
+
+.font-style {
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+p {
+    font-family: Robot;
+    font-weight: normal;
+
+}
