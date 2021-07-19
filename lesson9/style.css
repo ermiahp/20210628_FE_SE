@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: 'poppins';
+}
+.navigation-bar {
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo {
+    width: 20vw;
+}
+.navigation-action {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.nav-links a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #2F281E;
+}
+.nav-btn {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-btn button {
+    width: 45%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+.nav-btn button:first-child {
+    border: 1px solid #BCD0E5;
+    background-color: white;
+}
+.nav-btn button:last-child {
+    color: white;
+    background-color: #FF9900;
+}
+.header {
+    margin-top: 50px;
+    display: flex;
+    height: 496px;
+}
+.left-part {
+    width: 45%;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.header-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-heading h1 {
+    font-family: 'poppins';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 54px;
+}
+.header-text {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+.btn-icon-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 56px;
+    
+}
+.header-btn {
+    display: flex;
+    width: 45%;
+}
+.header-btn button {
+    width: 13vw;
+    height: 53px;
+    background-color: #FF9900;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.icon {
+    width: 45%;
+    display: flex;
+}
+.icon span {
+    width: 20px;
+    height: 17px;
+    color: rgba(255, 153, 0, 1);
+}
+.icon a {
+    color: rgba(255, 153, 0, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.right-part {
+    width: 55%;
+    display: flex;
+}
+.feature {
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+    
+}
+.feature h1 {
+    width: 539px;
+    margin: 0px;
+}
+.feature-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 54px;
+}
+.card {
+    width: 22%;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-between
+}
+.card4 {
+    height: 204px;
+}
+.card h4 {
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 33px;
+}
+.card p {
+    margin: 0px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(84, 72, 55, 1);
+}
+.feature-icon {
+    width: 51px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.feature-btn {
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 34px;
+}
+.effortless-validation {
+    width: 100%;
+    height: 574px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.effortless-text {
+    width: 40%;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.effortless-text h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(47, 40, 30, 1);
+}
+.effortless-text p {
+    margin: 0;
+    color: rgba(84, 72, 55, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.effortless-text h5 {
+    margin: 0;
+    color: rgba(47, 40, 30, 1);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+.effortless-img {
+    width: 50%;
+    height: 574px;
+    display: flex;
+}
+.product-managers {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-img {
+    width: 50%;
+    height: 521px;
+}
+.product-text {
+    width: 42%;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.product-text h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+.product-text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.product-text label {
+    width: 83%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.product-icon {
+    width: 35px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.marketers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 104px;
+}
+.marketers-text {
+    width: 44%;
+    height: 569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.marketers-text h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(47, 40, 30, 1);
+}
+.marketers-text p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(84, 72, 55, 1);
+}
+.marketers-text h5 {
+    margin: 0px;
+    color: rgba(47, 40, 30, 1);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+.marketers-img {
+    width: 50%;
+    height: 609px;
+}
+.footer {
+    width: 100%;
+    height: 308px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-img {
+    width: 185px;
+    height: 32px;
+    align-self: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a {
+    text-decoration: none;
+    color: rgba(84, 72, 55, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
+.footer-links input {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    background-color: white;
+}
+.footer-links button {
+    background-color: #FF9900;
+    color: white;
+    width: 131px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 21px;
+}
