@@ -130,6 +130,12 @@ body {
     line-height: 89px;
     color: #181E4B;
 }
+.main-section__text-decore {
+    position: absolute;
+    left: 210px;
+    top: 129px;
+    z-index: -1;
+}
 .main-section__text p {
     margin: 0;
     font-family: Poppins;
@@ -188,7 +194,6 @@ body {
     position: relative;
     left: 154px;
     width: 85%;
-    height: 525px;
     margin-top: 97px;
     text-align: center;
 }
@@ -220,4 +225,8 @@ body {
     line-height: 64px;
     color: #14183E;
     margin: 0;
+}
+.services__box {
+    left: 54px;
+    top: 200px;
 }
