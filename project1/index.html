@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12</title>
+    <link href="./assets/styles/styes.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="form-example">
+        <input placeholder="Please write your email!" type="email" required tabindex="5"/>
+        <input placeholder="Please write your password" type="password" required tabindex="3"/>
+        <input placeholder="Please write your phone number" type="tel" minlength="11" maxlength="11" tabindex="4"/>
+        <!-- <input type="radio" checked/>
+        <input type="checkbox" checked/>
+        <input type="file" multiple/>
+        <input type="file" accept=".jpg"/>
+        <input type="text" value="Ermia"/> -->
+        <!-- <input type="time" />
+        <input type="range"/>
+        <input type="week"/>
+        <input type="search" />
+        <input type="reset" />
+        <input type="color" />
+        <input type="datetime-local" /> -->
+        <textarea rows="3" maxlength="10" tabindex="6" autofocus></textarea>
+        <select tabindex="1">
+            <option >Test 1</option>
+            <!-- <optgroup> -->
+            <option disabled >Test 2</option>
+            <option>Test 2</option>
+            <option selected>Test 3</option>
+            <!-- </optgroup> -->
+        </select>
+        <button type="submit" tabindex="0">Submit</button>
+    </form>
+</body>
+</html>
