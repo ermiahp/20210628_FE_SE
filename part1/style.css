@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+.main-section{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    /* background-image: url(./imgs/Decore.png);
+    background-size: 50vw 50vw;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+}
+
+.main-section__background{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main-section__plane{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.main-section__planeB{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    animation: identifier 3s infinite;
+}
+
+.main-section__planeB:hover{
+    transform: rotate(90deg);
+}
+
+@keyframes identifier {
+    0%{
+        /* transform: rotate(deg); */
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
