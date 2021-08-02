@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box-wrapper {
+    width: 30%;
+    height: 300px;
+    background-color: rgba(229, 243, 254, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #CFEAFF;
+    transition: height 1s;
+}
+.box-wrapper:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #2370C8;
+    box-shadow: 0px 4px 12px #D2EBFF;
+    height: 270px;
+}
+.box {
+    text-align: center;
+    width: 80%;
+}
+.box_title {
+    color: rgba(38, 42, 78, 1);
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 500;
+}
+.box-text {
+    color: rgba(100, 100, 100, 1);
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 400;
+}
 header {
     display:flex;
     justify-content: center;
