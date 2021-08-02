@@ -53,7 +53,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 77vw;
     margin: auto;
 }
 
@@ -69,4 +69,11 @@ p {
 
 .material-icons:hover {
     color: rgb(0, 162, 255);
+}
+
+.news-blogs {
+    background-color: #3F8CE3;
+    height: 843px;
+    margin-top: 40px;
+    width: 100%;
 }
