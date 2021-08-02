@@ -32,6 +32,7 @@ h1 {
 }
 .main-text p{
     color: white;
+    font-size: 20px;
 }
  a {
      text-decoration: none;
@@ -63,6 +64,10 @@ h1 {
     color: white;
     padding: 10px;
 }
+.navbar-btns button:hover {
+    background-color: white;
+    color: rgb(80, 0, 104);
+}
 
 .main-text {
     align-content: center;
@@ -70,6 +75,15 @@ h1 {
     margin: 30vh;
     text-align: center;
 }
+@keyframes animate__slideOutLeft{
+
+}
+
+.main-text-links a:hover {
+    animation: animate__slideOutLeft;
+}
+
+
 
 .section_second {
     padding: 4em 0 7em;
@@ -87,7 +101,8 @@ h1 {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    width: 50vw;
+    width: 70vw;
+    height: 50vh;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -96,7 +111,9 @@ h1 {
 .section_second--main span {
     color: rgb(111, 53, 150);
 }
-
+.section_second p {
+    font-size: 20px;
+}
 .section__row--first {
     background-color: white;
     margin-left: 4vh;
@@ -126,9 +143,9 @@ h1 {
 }
 .section_button button {
     background-color:#6078ea; 
-    width: 200px;
-    font-size: 12px;
-    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    padding: 30px;
     border-radius: 5px;
     color: white;
     text-align: center;
