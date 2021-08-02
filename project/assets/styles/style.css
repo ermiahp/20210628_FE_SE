@@ -40,12 +40,25 @@
     font-family: roboto;
     font-weight: 400;
 }
-header {
-    display:flex;
-    justify-content: center;
+
+.main-section__header{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+.main-section__header h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.15em;
+
+    color: #2370C8;
+}
 p {
     color: rgb(0, 162, 255);
 }
