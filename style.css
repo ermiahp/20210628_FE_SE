@@ -1,0 +1,7 @@
+.main-section {
+    height: 100vh;
+    background: #17ead9;
+    background: -webkit-gradient(linear,left top,right top,from(#17ead9),to(#6078ea));
+    background: linear-gradient(to right,#17ead9 0,#6078ea 100%);
+    display: grid;
+}
