@@ -68,7 +68,7 @@ p {
 }
 
 .material-icons:hover {
-    color: rgb(0, 162, 255);
+    color: rgb(82, 110, 126);
 }
 
 .news-blogs {
@@ -76,4 +76,29 @@ p {
     height: 843px;
     margin-top: 40px;
     width: 100%;
+}
+.first_p {
+    color: rgb(62, 133, 173);
+
+}
+.second_p {
+    color: black;
+}
+.news-blogs {
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: white;
+    padding: 5vw;
+}
+
+.material-icons.smaller {
+    font-size: 24px!important;
+}
+
+.news-blogs__input {
+    display: flex;
 }
