@@ -1,0 +1,26 @@
+@import 'https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap';
+
+@use 'colors';
+
+@mixin example($proparty) {
+    -webkit-transform: $proparty;
+    -ms-transform: $proparty;
+    transform: $proparty;
+}
+
+.test {
+
+    &__elemnt{
+        color: colors.$color-primary;
+
+        &:hover {
+            color: colors.$color-primary;
+            @include example(scale(5));
+        }
+    }
+
+    &__btn {
+        @include example(scale(2))
+
+    }
+}

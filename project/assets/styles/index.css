@@ -1,0 +1,12 @@
+.test__elemnt {
+  color: red;
+}
+.test__elemnt:hover {
+  color: red;
+  -webkit-transform: scale(5);
+  transform: scale(5);
+}
+.test__btn {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
