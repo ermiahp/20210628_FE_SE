@@ -71,6 +71,64 @@ body {
     }
  }
 }
+.delivering {
+  display: flex;
+  flex-direction: column;
+  margin-top: 170px;
+
+  &__headers {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__header {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #2D3436;
+  }
+
+  &__sub-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: #2D3436;
+  }
+  
+  &__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  B83676
+  &__option {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+
+    &-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      
+    }
+
+    
+  }
+
+}
+
+
+
 .mobile {
   &--on {
     display: none;
