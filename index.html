@@ -9,6 +9,33 @@
   <title>Document</title>
 </head>
 <body>
+  <header class="navbar">
+    <img src="./assets/img/Skärmklipp.PNG" class="mobile--off"/>
+    <div class="mobile--on navbar__mobile-menu">
+      <span class="material-icons" onclick="openMenu()">menu</span>
+      <label>Grid</label>
+    </div>
+    <div class="navbar__menus" id="topnav">
+      <a>How it works</a>
+      <a>Who we are</a>
+      <a>What we do</a>
+      <a>Contact us</a>
+    </div>
+    <button>Sign in</button>
+  </header>
+  <section>
+    <div class="product__img">
+      <div class="product__img__left">
+        <p class="product__img__left-text">Use mixed grid with imagery, replace with your own photos and descriptions</p>
+        <div class="product__img__left-template">
+          <p>We aimed to deliver HQ templates for Figma
+            Used by 123 people</p>
+        </div>
+        <button>Learn more</button>
+      </div>
+      <div class="product__img__right"></div>
+    </div>
+  </section>
   <section class="pricing">
     <div class="pricing__headers">
       <h1 class="pricing__header mobile--off">affordable prices</h1>
@@ -48,6 +75,16 @@
       </div>
     </div>
   </section>
+  <script>
+    function openMenu() {
+      const elemnt = document.getElementById("topnav");
+      if (elemnt.className === "navbar__menus") {
+        elemnt.className += " responsive";
+      } else {
+        elemnt.className = "navbar__menus";
+      }
+    }
+  </script>
   
 </body>
 </html>
