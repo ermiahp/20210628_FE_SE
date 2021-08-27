@@ -7,9 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/assets/styles/css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
+    <header class="navbar">
+        <img height="64px" src="/assets/img/Capture.PNG" class="mobile--off">
+        <div class="mobile--on navbar__mobile-menu">
+            <span class="material-icons" onclick="openMenu()"> menu</span>
+            <label>Grid </label>
+
+        </div>
+        <div class="navbar__menus" id="topnav">
+            <a href="??"> How it works </a>
+            <a href="??"> Who we are </a>
+            <a href="??"> What we do</a>
+            <a href="??"> Contact us</a>
+
+        </div>
+        <button> Sign in</button>
+
+    </header>
+
+    <section class="landing">
+        <div class="landing__bg-dots"> </div>
+
+        <div class="class_1">
+            <div class="class_left">
+                <p>
+                    Use mixed grid with imagery, replace with your own photos and descriptions
+                </p>
+            </div>
+            <div> </div>
+
+        </div>
+    </section>
+
+
     <section class="pricing">
         <div class="pricing__headers">
             <h1 class="pricing__header mobile--off"> Afordable pricing</h1>
@@ -44,6 +79,78 @@
 
 
     </section>
+
+    <section class="delivering">
+        <div class="delivering__headers">
+            <h1 class="delivering__header"> Delivering good designs since 1954 🚚💨</h1>
+            <h6 class="delivering__subheader">
+                We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+                gaps between your layouts, templates and developers to empower all involved.
+            </h6>
+        </div>
+        <div class="delivering__benefits">
+            <div class="delivering__benefit">
+                <div class="red-icon delivering-benefit__icon">
+                    <span class="material-icons"> phone_in_talk </span>
+                </div>
+                <h2 class="delivering-benefit__header"> Support</h2>
+                <p class="delivering-benefit__description"> Delivering faster and more personalized support with shared
+                    screens and cool design systems for
+                    Figma</p>
+                <a class="delivering-benefit__learn-more"> Learn more</a>
+
+            </div>
+
+            <div class="delivering__benefit">
+                <div class="red-icon delivering-benefit__icon">
+                    <span class="material-icons"> phone_in_talk </span>
+                </div>
+                <h2 class="delivering-benefit__header"> Support</h2>
+                <p class="delivering-benefit__description"> Delivering faster and more personalized support with shared
+                    screens and cool design systems for
+                    Figma</p>
+                <a class="delivering-benefit__learn-more"> Learn more</a>
+
+            </div>
+            <div class="delivering__benefit">
+                <div class="red-icon delivering-benefit__icon">
+                    <span class="material-icons"> phone_in_talk </span>
+                </div>
+                <h2 class="delivering-benefit__header"> Support</h2>
+                <p class="delivering-benefit__description"> Delivering faster and more personalized support with shared
+                    screens and cool design systems for
+                    Figma</p>
+                <a class="delivering-benefit__learn-more"> Learn more</a>
+
+            </div>
+            <div class="delivering__benefit">
+                <div class="red-icon delivering-benefit__icon">
+                    <span class="material-icons"> phone_in_talk </span>
+                </div>
+                <h2 class="delivering-benefit__header"> Support</h2>
+                <p class="delivering-benefit__description"> Delivering faster and more personalized support with shared
+                    screens and cool design systems for
+                    Figma</p>
+                <a class="delivering-benefit__learn-more"> Learn more</a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script>
+        function openMenu() {
+            const elemnt = document.getElementById("topnav");
+            if (elemnt.className === "navbar__menus") {
+                elemnt.className += " responsive";
+            } else {
+                elemnt.className = "navbar__menus";
+            }
+
+        }
+    </script>
 
 </body>
 
