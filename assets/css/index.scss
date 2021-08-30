@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background-color: #FEEFE3;
+  background-image: url("/assets/img/boyandgirl.png"), url("/assets/img/rightbottomcorner.png"), url("/assets/img/bottom-left.png"), url("/assets/img/top.png");
+  background-size: 40% 85%,54% 60%, 34% 37%, 45% 25%;
+  background-repeat: no-repeat;
+  background-position: right 10% bottom, right bottom, left bottom, top right 20%;
+
+  &__navbar {
+    width: 90%;
+    height: 53px;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+
+    &__action {
+      width: 35%;
+      margin-left: 20%;
+      display: flex;
+      justify-content: space-between;
+      &_links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+      }
+    }
+    &__link {
+      text-decoration: none;
+      color:#7D8790;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &__btn {
+      width: 18%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & .btn {
+        width: 62%;
+        height: 53px;
+        background: #ED9B59;
+        box-shadow: 0px 100px 161px rgba(245, 155, 90, 0.08), 0px 64.8148px 94.2894px rgba(245, 155, 90, 0.0607407), 0px 38.5185px 51.2815px rgba(245, 155, 90, 0.0485926), 0px 20px 26.1625px rgba(245, 155, 90, 0.04), 0px 8.14815px 13.1185px rgba(245, 155, 90, 0.0314074), 0px 1.85185px 6.33565px rgba(245, 155, 90, 0.0192593);
+        border: none;
+        border-radius: 40px;
+        color: #F4EBE6;
+        font-size: 16px;
+        line-height: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__get-started {
+    width: 90%;
+    margin-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    &_text {
+      width: 35%;
+      & .sub-header {
+        font-size: 14px;
+        line-height: 24px;
+        color: #ED9B59;
+        margin: 0;
+      }
+
+      & .title-header {
+        font-size: 58px;
+        line-height: 101.8%;
+        letter-spacing: -0.01em;
+        color: #1A1D32;
+        margin-top: 13px;
+        margin-bottom: 37px;
+
+        &__styling {
+          color: #ED9B59;
+        }
+      }
+
+      & .title-text {
+        width: 90%;
+        font-size: 20px;
+        line-height: 30px;
+        color: #1A1D32;
+        margin: 0;
+      }
+    }
+
+    &__email {
+      width: 90%;
+      position: relative;
+  
+      & input {
+        margin-top: 22px;
+        width: 88%;
+        height: 58px;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 40px;
+        padding-left: 12%;
+      }
+
+      & .placeholder-icon {
+        position: absolute;
+        top: 48%;
+        left: 5%;
+        color: #1A1D32;
+        opacity: 0.3;
+      }
+
+      & .email__btn {
+        width: 35%;
+        height: 40px;
+        position: absolute;
+        right: 11px;
+        top: 39%;
+        color: #F4EBE6;
+        background: #ED9B59;
+        border: none;
+        cursor: pointer;
+        border-radius: 40px;
+        font-size: 16px;
+        line-height: 20px;
+
+      }
+  
+    }
+  }
+
+
+}
