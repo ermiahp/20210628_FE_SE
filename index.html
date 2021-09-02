@@ -10,24 +10,28 @@
 <body>
   <section class="calculator-background">
     <div class="calculator">
-      <div class="calculator__display"></div>
-      <button class="calculator__number">1</button>
-      <button class="calculator__number">2</button>
-      <button class="calculator__number">3</button>
+      <div class="calculator__display">
+        <label>1000</label>
+      </div>
+      <button class="calculator__number" onclick="pressNumber(1)">1</button>
+      <button class="calculator__number" onclick="pressNumber(2)">2</button>
+      <button class="calculator__number" onclick="pressNumber(3)">3</button>
       <button class="calculator__action">+</button>
-      <button class="calculator__number">4</button>
-      <button class="calculator__number">5</button>
-      <button class="calculator__number">6</button>
+      <button class="calculator__number" onclick="pressNumber(4)">4</button>
+      <button class="calculator__number" onclick="pressNumber(5)">5</button>
+      <button class="calculator__number" onclick="pressNumber(6)">6</button>
       <button class="calculator__action">-</button>
-      <button class="calculator__number">7</button>
-      <button class="calculator__number">8</button>
-      <button class="calculator__number">9</button>
+      <button class="calculator__number" onclick="pressNumber(7)">7</button>
+      <button class="calculator__number" onclick="pressNumber(8)">8</button>
+      <button class="calculator__number" onclick="pressNumber(9)">9</button>
       <button class="calculator__action">*</button>
-      <button class="calculator__reset">C</button>
-      <button class="calculator__number">0</button>
+      <button class="calculator__reset" onclick="clearCalc()">C</button>
+      <button class="calculator__number" onclick="pressNumber(0)">0</button>
       <button class="calculator__equals">=</button>
       <button class="calculator__action">/</button>
     </div>
   </section>
+
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
