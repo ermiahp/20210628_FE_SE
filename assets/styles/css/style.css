@@ -1,0 +1,93 @@
+@font-face {
+		font-family: "digit";
+		src: url(/assets/fonts/digital-7.ttf);
+}
+body {
+		margin: 0;
+}
+
+.calc {
+		width: 100vw;
+		height: 100vh;
+		background-color: #a8bf7e;
+		overflow: hidden;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+
+.calculator {
+		width: 400px;
+		height: 450px;
+		background-color: #a0d0ea;
+		padding: 20px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+}
+.calculator__result {
+		height: 90px;
+		width: 95%;
+		background-color: #f1fbeb;
+		border-bottom: 4px solid #80a6bc;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+		-webkit-box-align: end;
+		    -ms-flex-align: end;
+		        align-items: flex-end;
+		padding-right: 5%;
+		font-size: 60px;
+		font-family: "digit";
+		margin-bottom: 20px;
+}
+.calculator__box {
+		height: 90px;
+		width: 90px;
+		border-bottom: 4px solid #80a6bc;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		font-size: 35px;
+		cursor: pointer;
+}
+.calculator__number {
+		background-color: #efefef;
+}
+.calculator__operator {
+		background-color: #efff93;
+}
+.calculator__clear {
+		background-color: #fd9fa9;
+}
+.calculator__row {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}

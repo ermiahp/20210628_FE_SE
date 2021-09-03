@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'digit';
+    src: url(/assets/fonts/digital-7.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.calc {
+    width: 100vw;
+    height: 100vh;
+    background-color: #a8bf7e;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    width: 400px;
+    height: 450px;
+    background-color: #a0d0ea;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+
+    &__result {
+        height: 90px;
+        width: 95%;
+        background-color: #f1fbeb;
+        border-bottom: 4px solid #80a6bc;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-right: 5%;
+        font-size: 60px;
+        font-family: 'digit';
+        margin-bottom: 20px;
+
+    }
+
+    &__box {
+        height: 90px;
+        width: 90px;
+        border-bottom: 4px solid #80a6bc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        cursor: pointer;
+
+    }
+
+    &__number {
+        background-color: #efefef;
+    }
+
+    &__operator {
+        background-color: #efff93;
+    }
+
+    &__clear {
+        background-color: #fd9fa9;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
