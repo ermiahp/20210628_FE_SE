@@ -1,4 +1,3 @@
-
 const resultBox = document.getElementsByClassName('calculator__result')[0];
 
 // console.log(resultBox.innerHTML);
