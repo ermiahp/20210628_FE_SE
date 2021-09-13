@@ -19,13 +19,47 @@ function number(a, b) {
   }else if ()
 }
 */
-var ageDiff = 0;
+/*
+width = prompt('write the width');
+length = prompt('write the length');
 
-function calculateYears() {
-  document.getElementById(age).innerText 
-  document.getElementById(mothersAge);
+let area;
+calculate();
 
-  ageDiff = mothersAge - age;
-
-  document.getElementById(labelForYears).innerHTML = 'your mother was ' + ageDiff + ' when she gave birth to you.';
+function calculate() {
+  if(length === '0') {
+    area = parseInt(width) * 4;
+    console.log(area);
+  }else {
+    area = (parseInt(width) + parseInt(length)) * 2;
+    console.log(area);
+  }
 }
+*/
+
+let car = {
+  manufacturer: 'Volvo',
+  model: 'xc90',
+  yearOfRelease: 2015,
+  averageSpeed: 100,
+  timeFrame: function() {
+    let distance = prompt('how far you want to go?')
+    let time = distance / this.averageSpeed;
+    console.log('it will take you ' + time + ' hours to get there' );
+  }
+};
+
+car.timeFrame();
+
+
+/*
+let a = prompt('What is your name?');
+sayHello();
+
+
+
+function sayHello() {
+  
+  document.getElementById('test').innerText = 'hello ' + a;
+}
+*/
