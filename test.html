@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div style="display: flex;flex-direction: column;">
+    <div style="display: flex;align-items: center;width: 100%;justify-content: space-around;">
+        <div style="background-color: white;width: 35px;height: 35px;display: flex;border-radius: 50%;justify-content: center;align-items: center;font-size: 30px;color: #607799;font-weight: bold;"><</div>
+        <div>
+            <img id="slide-image" width="100%"/>
+        </div>
+        <div onclick="getNewImage()" style="background-color: white;width: 35px;height: 35px;display: flex;border-radius: 50%;justify-content: center;align-items: center;font-size: 30px;color: #607799;font-weight: bold;">></div>
+    </div>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<script>
+        
+  const url = "https://dog.ceo/api/breeds/image/random";
+
+ 
+
+  fetch(url)
+  .then( response => response.json())
+  .then(data => {
+      console.log(data.message);
+      const image = document.getElementById('slide-image');
+      image.src = data.message;
+  })
+
+
+  function getNewImage() {
+      fetch(url)
+      .then( response => response.json())
+      .then(data => {
+          console.log(data.message);
+          const image = document.getElementById('slide-image');
+          image.src = data.message;
+      })
+  }
+
+  
+</script>
+
+</body>
+</html>
